@@ -41,24 +41,27 @@ div.front.container {
   margin-left: auto;
 }
 
-.fab {
+.fa-file {
   margin-right: .5em;
 }
 
-.fas {
+.fa-linkedin {
   margin-right: .5em;
 }
 
 .fa-html5 {
   color: #E44D26;
+  margin-right: .5em;
 }
 
 .fa-css3-alt {
   color: #2965f1;
+  margin-right: .5em;
 }
 
 .fa-node {
   color: #3C873A;
+  margin-right: .5em;
 }
 
 .fa-js-square {
