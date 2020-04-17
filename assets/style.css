@@ -90,27 +90,9 @@ div.front.container {
     margin-left: 0;
     font-size: 1.5em;
   }
-
-  section.landing {
-    background: url("./images/small.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-  }
 }
 
 @media screen and (max-width: 700px) {
-
-  section.landing {
-    background: url("./images/small.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-  }
 
   a.brand-logo {
       margin-left: 0;
@@ -120,8 +102,22 @@ div.front.container {
 
 @media screen and (max-width: 992px) {
 
+  section.landing {
+    background: url("./images/small.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: scroll;
+  }
+
   a.brand-logo {
       margin-left: 0;
       font-size: 2em;
+  }
+
+  div.front.container {
+    margin-top: 25vh;
+    margin-left: auto;
   }
 }
