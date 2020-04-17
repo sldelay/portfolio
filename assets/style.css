@@ -4,7 +4,7 @@ section.landing {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 nav > div.nav-wrapper {
@@ -115,7 +115,7 @@ div.secondRow {
     -o-background-size: cover;
     background-size: cover;
     background-attachment: scroll;
-    overflow: scroll;
+    overflow: auto;
   }
 
   a.brand-logo {
