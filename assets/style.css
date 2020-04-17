@@ -1,0 +1,101 @@
+section.landing {
+  height: 100vh;
+  background: linear-gradient(45deg, #dcb1b8 50%, #558b8b 50%) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav > div.nav-wrapper {
+  background-color: #313131;
+  box-shadow: none;
+}
+
+a.brand-logo {
+  margin-left: 1em;
+}
+
+.navLink {
+  font-size: 1.25em;
+  margin-right: 1em;
+}
+
+span.hello {
+  font-size: 10em;
+  color: white;
+}
+
+span.periodHello {
+  font-size: 10em;
+  color: #F0DB4F;
+}
+
+span.iAm {
+  font-size: 3em;
+  color: white;
+}
+
+div.front.container {
+  margin-top: 25vh;
+  margin-left: auto;
+}
+
+.fab {
+  margin-right: .5em;
+}
+
+.fas {
+  margin-right: .5em;
+}
+
+.fa-html5 {
+  color: #E44D26;
+}
+
+.fa-css3-alt {
+  color: #2965f1;
+}
+
+.fa-node {
+  color: #3C873A;
+}
+
+.fa-js-square {
+  color: #F0DB4F;
+}
+
+.fa-react {
+  color: #61DBFB;
+}
+
+.page-footer {
+  /* height: 5em; */
+  background-color:#313131; 
+}
+
+@media screen and (max-width: 420px) {
+
+  span.hello {
+    font-size: 5em;
+    color: white;
+  }
+
+  span.iAm {
+    font-size: 1.25em;
+    color: white;
+  }
+
+  a.brand-logo {
+    margin-left: 0;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  a.brand-logo {
+      margin-left: 0;
+      font-size: 2em;
+  }
+}
