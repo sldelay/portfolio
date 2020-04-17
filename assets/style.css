@@ -77,6 +77,10 @@ div.front.container {
   background-color:#313131; 
 }
 
+div.secondRow {
+  margin-top: 4em;
+}
+
 @media screen and (max-width: 420px) {
 
   span.hello {
