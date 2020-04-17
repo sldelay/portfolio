@@ -1,10 +1,10 @@
 section.landing {
-  height: 100vh;
   background: url("./images/gradient.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100vh;
 }
 
 nav > div.nav-wrapper {
@@ -86,9 +86,35 @@ div.front.container {
     color: white;
   }
 
-  a.brand-logo {
+  nav > div > a.brand-logo {
     margin-left: 0;
     font-size: 1.5em;
+  }
+
+  section.landing {
+    background: url("./images/small.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  section.landing {
+    background: url("./images/small.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  a.brand-logo {
+      margin-left: 0;
+      font-size: 2em;
   }
 }
 
