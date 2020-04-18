@@ -2,7 +2,7 @@
 
 This is my personal portfolio site. It will continue to be updated from time to time.
 
-![alt text](assets/images/screenshot.png)
+![alt text](assets/images/screenshot2.png)
 
 Link to the live website: (https://www.samueldelay.com/)
 
