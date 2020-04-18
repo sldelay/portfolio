@@ -9,7 +9,7 @@ Link to the live website: (https://www.samueldelay.com/)
 ## Project Info.
 
 ### Languages Used:
-HTML, CSS, JavaScript, jQuery
+HTML, CSS
 
 ### Other Tools:
 Materialize CSS
